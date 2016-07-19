@@ -8,7 +8,7 @@ public class NewTest {
 	SoftAssert sassert=new SoftAssert();;
   @Test
   public void f() {
-	  sassert.assertEquals("HI", "ko","not matching");
+	  sassert.assertEquals("HI", "HI","not matching");
 	  sassert.assertAll();
   }
 }
